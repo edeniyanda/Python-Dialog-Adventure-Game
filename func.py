@@ -9,6 +9,7 @@ def reply(use):
     for repn in replyn:
         repn = repn.capitalize()
         if repn == use:
+            sleep(2)
             print("Bye")
             quit()
             
